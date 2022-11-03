@@ -3,11 +3,15 @@
     --gray-second: #C0C0C0;
     --blue--button: #167BF7;
     --background--color: #00030C;
+    --fonte-principal: 'Inter';
 }
 
 body {
     background-color: var(--background--color);
     color: var(--white-principal);
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+    font-weight: 400;
 }
 
 * {
@@ -33,9 +37,20 @@ body {
     padding: 1em;
     color: var(--white-principal);
     display: block;
+    text-decoration: none;
 }
 
 .button_secondary {
     background-color: transparent;
     border: 2px solid var(--white-principal);
+}
+
+.container_notice {
+    font-size: 12px;
+    color: var(--gray-second);
+}
+
+.container__title {
+    font-size: 28px;
+    font-weight: 700;
 }
