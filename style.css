@@ -23,6 +23,8 @@ body {
 
 .container {
     height: 100vh;
+    display: grid;
+    grid-template-columns: 50% 50%;
 }
 
 .container__button {
@@ -31,4 +33,9 @@ body {
     padding: 1em;
     color: var(--white-principal);
     display: block;
+}
+
+.button_secondary {
+    background-color: transparent;
+    border: 2px solid var(--white-principal);
 }
