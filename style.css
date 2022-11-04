@@ -85,3 +85,12 @@ body {
 .description__text {
     color: var(--gray-second);
 }
+
+.button__secondary {
+    display: inline-block;
+    margin-top: 1em;
+}
+
+.container__description {
+    padding: 2em;
+}
