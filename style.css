@@ -94,3 +94,7 @@ body {
 .container__description {
     padding: 2em;
 }
+
+.description__text {
+    margin-top: 1em;
+}
