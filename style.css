@@ -119,3 +119,31 @@ body {
     font-size: 32px;
     color: var(--white-principal);
 }
+
+.footer {
+    text-align: center;
+    margin: 5em 3em;
+}
+
+.footer__logo {
+    margin-bottom: 2em;
+}
+
+.footer__list {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin: 1em;
+}
+
+.list__link a {
+    text-decoration: none;
+    margin-left: 1.5em;
+    color: var(--white-principal);
+}
+
+.footer__text {
+    margin: 1.5em 0;
+    color: var(--gray-second);
+    font-size: 14px;
+}
